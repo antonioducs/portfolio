@@ -66,3 +66,9 @@
     border-radius: 0px;
     margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 768px) {
+    #Contato h1{
+        font-size: 40px;
+    }
+}

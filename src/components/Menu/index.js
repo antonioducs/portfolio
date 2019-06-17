@@ -23,7 +23,6 @@ class Menu extends Component {
                     <ul className="menu__list">
                         {linksMarkup}
                     </ul>
-
                 </div>
             </nav>
         );

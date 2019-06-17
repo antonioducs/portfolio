@@ -7,6 +7,7 @@ import "./styles.css";
 class SectionHome extends Component {
 
     state = {
+        curriculo: "https://github.com/antonioducs/proweb/raw/master/curriculo.pdf",
         imgPerfil: "https://github.com/antonioducs/proweb/blob/master/img/portifolio/perfil.jpg?raw=true",
         lists: [
             {
@@ -38,9 +39,6 @@ class SectionHome extends Component {
             }
         ]
     };
-    onClick = () => {
-        console.log("Alguém clicou!");
-    };
 
     render() {
         return (
@@ -55,7 +53,7 @@ class SectionHome extends Component {
                             . Estudante de Engenharia de Computação pela UTFPR-CP,
                         nasci em Paranaíba - MS, atualmente moro em Cornélio Procópio - PR.</h2>
 
-                        <Button onClick={this.onClick}>CURRÍCULO COMPLETO</Button>
+                        <a href={this.state.curriculo} target="_blank"><Button>CURRÍCULO COMPLETO</Button></a>
                     </div>
                     <div id="ListEsq">
                         <h1 className="item-1">Antonio Cesar Duarte</h1>

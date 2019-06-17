@@ -61,3 +61,9 @@
     -o-transition: all 1.0s ease-in-out 0s;
     transition: all 1.0s ease-in-out 0s;
 }
+
+@media only screen and (max-width: 768px) {
+    #Portfolio h1{
+        font-size: 40px;
+    }
+}

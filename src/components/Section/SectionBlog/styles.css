@@ -69,3 +69,9 @@
 #Blog p{
     text-align: justify;
 }
+
+@media only screen and (max-width: 768px) {
+    #Blog h1{
+        font-size: 40px;
+    }
+}

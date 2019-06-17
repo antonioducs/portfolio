@@ -3,7 +3,7 @@ import "./styles.css";
 
 class SectionHabilidades extends Component {
     state = {
-        habilidades: ["JavaScript", "C/C++", "HTML", "SGBD", "JPA", "JUnity", "Java", 
+        habilidades: ["JavaScript", "C/C++", "HTML", "SGBD", "JPA", "JUnit", "Java", 
                     "ReactJs", "NodeJs", "MongoDB", "MySQL", "Sockets", "Microcontroladores", "Arduino",
                 "IA", "IoT", "Python"]
     };
