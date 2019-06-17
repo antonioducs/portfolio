@@ -5,7 +5,7 @@ class SectionHabilidades extends Component {
     state = {
         habilidades: ["JavaScript", "C/C++", "HTML", "SGBD", "JPA", "JUnity", "Java", 
                     "ReactJs", "NodeJs", "MongoDB", "MySQL", "Sockets", "Microcontroladores", "Arduino",
-                "IA", "IoT"]
+                "IA", "IoT", "Python"]
     };
 
     render() {

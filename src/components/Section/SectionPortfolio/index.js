@@ -6,12 +6,11 @@ class SectionPortfolio extends Component {
     state = {
         trabalhos: [
             {
-                img: 'sausauh',
-                page: 'elle'
-            },
+                img: 'https://github.com/antonioducs/proweb/blob/master/img/portifolio/serv1.png?raw=true',
+                page: "https://github.com/antonioducs/dctb-utfpr-2019-1-web/tree/master/as34a-n14/t01/antonio-cesar-duarte"            },
             {
-                img: 'lele',
-                page: 'lolo'
+                img: 'https://github.com/antonioducs/proweb/blob/master/img/portifolio/serv2.png?raw=true',
+                page: 'https://github.com/antonioducs/dctb-utfpr-2019-1-web/tree/master/as34a-n14/ta03'
             }
         ]
     };

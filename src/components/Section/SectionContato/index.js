@@ -30,12 +30,15 @@ class SectionContato extends Component {
                         <p>{this.state.contato.telefone}</p>
                     </div>
 
-                    <input type="text" id="nome" placeholder="Nome" />
-                    <input type="text" id="email" placeholder="E-mail" />
-                    <input type="text" id="assunto" placeholder="Assunto" />
-                    <textarea placeholder="Mensagem"></textarea>
+                    <form action="https://formspree.io/antonioduarte.cs@gmail.com" method="POST">
+                        <input type="text" id="nome" placeholder="Nome" name="name" />
+                        <input type="text" id="email" placeholder="E-mail" name="_replyto" />
+                        <input type="text" id="assunto" placeholder="Assunto" name="" name="subject" />
+                        <textarea placeholder="Mensagem" name="message"></textarea>
+                        <Button onClick={this.onClick} type="submit">Enviar</Button>
+                    </form>
 
-                    <Button onClick={this.onClick}>Enviar</Button>
+                    
 
                     <div className="redes_sociais">
                         <h3>Redes sociais</h3>

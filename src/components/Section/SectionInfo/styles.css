@@ -39,6 +39,7 @@
 
 #Info .work h2{
     margin-left: 35px;
+    text-align: center;
 }
 
 #Info .bio h2{
@@ -48,17 +49,23 @@
     font-size: 25px;
     margin-bottom: 100px;
     margin-right: 35px;
+    text-align: justify;
 }
 
 #Info .work p{
     font-size: 25px;
     margin-bottom: 100px;
     margin-left: 35px;
+    text-align: justify;
 }
 
 @media only screen and (max-width: 768px) {
     #Info .body{ 
         display: flex;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
         flex-wrap: wrap;
         margin-left: 0px;
         margin-right: 0px;
@@ -75,6 +82,7 @@
     #Info .bio p{
         margin-left: 0px;
         margin-right: 0px;
+        
     }
     #Info .bio h2{
         margin-left: 0px;
@@ -85,5 +93,8 @@
 #Info img{
     height: 100px;
     width: 100px;
+}
+
+#Info .git{
     margin-bottom: 50px;
 }
